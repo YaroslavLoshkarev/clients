@@ -2,5 +2,7 @@
 	<head>
 		<link rel = "stylesheet" href = "styles.css">
 	</head>
-	<body></body>
+	<body>
+		<div class = "banners-div"></div>
+	</body>
 </html>
