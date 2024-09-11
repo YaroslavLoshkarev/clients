@@ -1,5 +1,30 @@
 .banners-div{
-	border:5px solid DodgerBlue;
-	width:800px;
-	height:500px;
+	display:flex;
+	flex-direction:row;
+}
+
+.banners-div-item{
+	flex-basis:50%;
+}
+
+.flex-item{
+	display:flex;
+	flex-direction:column;
+}
+
+
+.flex-item-element, .item-element{
+	border:2px solid DodgerBlue;
+	border-radius:10px;
+	padding:5px;
+}
+
+@media screen and (max-width:720px){
+	.banners-div{
+		flex-direction:column;
+	}
+}
+
+.hover-item:hover{
+	border-color:#FF0D00;
 }
